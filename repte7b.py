@@ -3,6 +3,6 @@ numero=int(input("Posa un numero positiu i jo et dire els numeors inparells que 
 if numero>=1:
     for i in range(1,numero):
         if i%2!=0:
-            print(i)
+            print(str(i)+",")
 else:
     print("Nomes es permeten numeros positius")
