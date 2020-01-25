@@ -1,2 +1,0 @@
-# ReptesBlai
-Reptes Blai CodeWar
