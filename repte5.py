@@ -1,14 +1,14 @@
-def redondea(a, b):#Funcio redondeo a un numero
+def redondea(a, b):
   return int((a / 5 + 0.5)) * b
 
-def reglade3(a, b, c):#Funcio regla de 3
+def reglade3(a, b, c):
     return int((c*b)/a)
 
-personas=int(input("Numero de convidats: "))#preguntem els convidats
+personas=int(input("Numero de convidats: "))
 
-if personas>=0:#Si els convidats son negatius aturem el proces
+if personas>=0:
     
-    personasredondeadas=redondea((personas+3), 5)#Redondeamos les personas + els 3 nois
+    personasredondeadas=redondea((personas+3), 5)
     recetapara=5
     iogurt=reglade3(recetapara, 1, personasredondeadas)
     ous=reglade3(recetapara, 3, personasredondeadas)
